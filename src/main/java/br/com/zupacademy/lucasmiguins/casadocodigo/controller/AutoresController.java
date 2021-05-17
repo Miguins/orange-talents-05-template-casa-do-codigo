@@ -18,7 +18,7 @@ import br.com.zupacademy.lucasmiguins.casadocodigo.repository.AutorRepository;
 import br.com.zupacademy.lucasmiguins.casadocodigo.validation.ProibeEmailDuplicadoAutorValidator;
 
 @RestController
-@RequestMapping(("/autores"))
+@RequestMapping("/autores")
 public class AutoresController {
 	
 	@Autowired AutorRepository autorRepository;
