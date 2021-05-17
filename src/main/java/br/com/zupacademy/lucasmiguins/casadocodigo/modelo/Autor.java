@@ -30,6 +30,11 @@ public class Autor {
 	private String descricao;
 	
 	private LocalDateTime dataCriacao;
+	
+	
+	@Deprecated
+	public Autor() {
+	}
 
 	public Autor(@NotBlank String nome, 
 			@NotBlank @Email String email, 
