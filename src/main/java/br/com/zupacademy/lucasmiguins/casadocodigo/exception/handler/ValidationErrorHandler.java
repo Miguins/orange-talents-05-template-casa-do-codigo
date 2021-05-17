@@ -1,4 +1,4 @@
-package br.com.zupacademy.lucasmiguins.casadocodigo.validation;
+package br.com.zupacademy.lucasmiguins.casadocodigo.exception.handler;
 
 import java.util.ArrayList;
 import java.util.List;

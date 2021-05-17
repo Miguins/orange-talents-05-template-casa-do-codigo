@@ -3,10 +3,12 @@ package br.com.zupacademy.lucasmiguins.casadocodigo.controller.dto;
 import javax.validation.constraints.NotBlank;
 
 import br.com.zupacademy.lucasmiguins.casadocodigo.modelo.Categoria;
+import br.com.zupacademy.lucasmiguins.casadocodigo.validation.UniqueValue;
 
 public class NovaCategoriaForm {
 	
 	@NotBlank
+	@UniqueValue(domainClass = Categoria.class, fieldName = "nome")
 	private String nome;
 
 	public Categoria toModel() {

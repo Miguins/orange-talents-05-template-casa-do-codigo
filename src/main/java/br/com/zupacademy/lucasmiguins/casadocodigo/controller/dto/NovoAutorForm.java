@@ -6,6 +6,7 @@ import javax.validation.constraints.NotBlank;
 import org.hibernate.validator.constraints.Length;
 
 import br.com.zupacademy.lucasmiguins.casadocodigo.modelo.Autor;
+import br.com.zupacademy.lucasmiguins.casadocodigo.validation.UniqueValue;
 
 public class NovoAutorForm {
 	
@@ -14,6 +15,7 @@ public class NovoAutorForm {
 	
 	@NotBlank
 	@Email
+	@UniqueValue(domainClass = Autor.class, fieldName = "email")
 	private String email;
 	
 	@NotBlank
