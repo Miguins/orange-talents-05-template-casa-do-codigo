@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.zupacademy.lucasmiguins.casadocodigo.controller.dto.NovaCategoriaForm;
+import br.com.zupacademy.lucasmiguins.casadocodigo.controller.dto.form.NovaCategoriaForm;
 import br.com.zupacademy.lucasmiguins.casadocodigo.modelo.Categoria;
 import br.com.zupacademy.lucasmiguins.casadocodigo.repository.CategoriaRepository;
 

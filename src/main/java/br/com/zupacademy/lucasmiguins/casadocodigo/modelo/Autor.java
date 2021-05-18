@@ -44,4 +44,12 @@ public class Autor {
 		this.descricao = descricao;
 		this.dataCriacao = LocalDateTime.now();
 	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
 }

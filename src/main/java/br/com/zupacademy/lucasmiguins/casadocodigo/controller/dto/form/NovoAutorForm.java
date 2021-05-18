@@ -1,4 +1,4 @@
-package br.com.zupacademy.lucasmiguins.casadocodigo.controller.dto;
+package br.com.zupacademy.lucasmiguins.casadocodigo.controller.dto.form;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;

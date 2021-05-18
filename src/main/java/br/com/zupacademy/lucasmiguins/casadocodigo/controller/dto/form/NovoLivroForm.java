@@ -1,4 +1,4 @@
-package br.com.zupacademy.lucasmiguins.casadocodigo.controller.dto;
+package br.com.zupacademy.lucasmiguins.casadocodigo.controller.dto.form;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.zupacademy.lucasmiguins.casadocodigo.controller.dto.NovoAutorForm;
+import br.com.zupacademy.lucasmiguins.casadocodigo.controller.dto.form.NovoAutorForm;
 import br.com.zupacademy.lucasmiguins.casadocodigo.modelo.Autor;
 import br.com.zupacademy.lucasmiguins.casadocodigo.repository.AutorRepository;
 
