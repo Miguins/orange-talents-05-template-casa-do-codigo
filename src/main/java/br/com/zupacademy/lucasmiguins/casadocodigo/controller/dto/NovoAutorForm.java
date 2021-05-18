@@ -32,16 +32,4 @@ public class NovoAutorForm {
 	public Autor toModel() {
 		return new Autor(this.nome, this.email, this.descricao);
 	}
-
-	public String getNome() {
-		return nome;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public String getDescricao() {
-		return descricao;
-	}
 }
