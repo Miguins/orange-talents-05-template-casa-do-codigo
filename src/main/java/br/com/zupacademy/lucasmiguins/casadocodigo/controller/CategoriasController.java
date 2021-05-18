@@ -27,6 +27,6 @@ public class CategoriasController {
 		Categoria categoria = categoriaForm.toModel();
 		categoriaRepository.save(categoria);
 		
-		return ResponseEntity.ok(categoriaForm);
+		return ResponseEntity.ok().build();
 	}
 }
