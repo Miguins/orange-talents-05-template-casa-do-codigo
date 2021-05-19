@@ -17,8 +17,8 @@ import com.fasterxml.jackson.annotation.JsonFormat.Shape;
 import br.com.zupacademy.lucasmiguins.casadocodigo.modelo.Autor;
 import br.com.zupacademy.lucasmiguins.casadocodigo.modelo.Categoria;
 import br.com.zupacademy.lucasmiguins.casadocodigo.modelo.Livro;
-import br.com.zupacademy.lucasmiguins.casadocodigo.validation.ExistsId;
-import br.com.zupacademy.lucasmiguins.casadocodigo.validation.UniqueValue;
+import br.com.zupacademy.lucasmiguins.casadocodigo.validation.annotation.ExistsId;
+import br.com.zupacademy.lucasmiguins.casadocodigo.validation.annotation.UniqueValue;
 
 public class NovoLivroForm {
 	

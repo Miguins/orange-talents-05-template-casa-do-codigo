@@ -1,4 +1,4 @@
-package br.com.zupacademy.lucasmiguins.casadocodigo.validation;
+package br.com.zupacademy.lucasmiguins.casadocodigo.validation.annotation;
 
 import java.util.List;
 

@@ -6,7 +6,7 @@ import javax.validation.constraints.NotBlank;
 import org.hibernate.validator.constraints.Length;
 
 import br.com.zupacademy.lucasmiguins.casadocodigo.modelo.Autor;
-import br.com.zupacademy.lucasmiguins.casadocodigo.validation.UniqueValue;
+import br.com.zupacademy.lucasmiguins.casadocodigo.validation.annotation.UniqueValue;
 
 public class NovoAutorForm {
 	

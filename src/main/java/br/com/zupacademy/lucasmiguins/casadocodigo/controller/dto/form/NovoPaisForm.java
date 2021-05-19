@@ -3,7 +3,7 @@ package br.com.zupacademy.lucasmiguins.casadocodigo.controller.dto.form;
 import javax.validation.constraints.NotBlank;
 
 import br.com.zupacademy.lucasmiguins.casadocodigo.modelo.Pais;
-import br.com.zupacademy.lucasmiguins.casadocodigo.validation.UniqueValue;
+import br.com.zupacademy.lucasmiguins.casadocodigo.validation.annotation.UniqueValue;
 
 public class NovoPaisForm {
 	

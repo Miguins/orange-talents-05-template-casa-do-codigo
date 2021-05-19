@@ -6,7 +6,7 @@ import javax.validation.constraints.NotNull;
 
 import br.com.zupacademy.lucasmiguins.casadocodigo.modelo.Estado;
 import br.com.zupacademy.lucasmiguins.casadocodigo.modelo.Pais;
-import br.com.zupacademy.lucasmiguins.casadocodigo.validation.ExistsId;
+import br.com.zupacademy.lucasmiguins.casadocodigo.validation.annotation.ExistsId;
 
 public class NovoEstadoForm {
 	
@@ -26,5 +26,13 @@ public class NovoEstadoForm {
 		@NotNull Pais pais = em.find(Pais.class, idPais);
 		
 		return new Estado(nome, pais);
+	}
+
+	public Long getIdPais() {
+		return idPais;
+	}
+
+	public String getNome() {
+		return nome;
 	}
 }

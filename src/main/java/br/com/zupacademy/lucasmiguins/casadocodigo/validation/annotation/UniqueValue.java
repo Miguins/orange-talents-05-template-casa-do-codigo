@@ -1,4 +1,4 @@
-package br.com.zupacademy.lucasmiguins.casadocodigo.validation;
+package br.com.zupacademy.lucasmiguins.casadocodigo.validation.annotation;
 
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
